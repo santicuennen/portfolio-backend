@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 //para permitir metodos cors
 @RestController
 //la forma de que springboot entienda que esta clase es la controladora
-@RequestMapping("/api")
+
 public class PersonaController {
     @Autowired
     private IPersonaService personServ;

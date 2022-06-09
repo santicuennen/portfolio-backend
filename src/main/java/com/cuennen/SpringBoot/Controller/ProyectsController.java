@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/api")
+
 public class ProyectsController {
     
     @Autowired
